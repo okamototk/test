@@ -28,12 +28,12 @@
 #    url=https://bitbucket.org/okamototk/redmine_hudson
 #  environment: env
 
-#- install-rm-plugin:
-#    name=redmine_backlogs
-#    ver=feature/redmine3
-#    url=https://github.com/macotier/redmine_backlogs.git
-##    url=https://github.com/backlogs/redmine_backlogs.git
-#  environment: env
+- install-rm-plugin:
+    name=redmine_backlogs
+    ver=feature/redmine3
+    url=https://github.com/macotier/redmine_backlogs.git
+#    url=https://github.com/backlogs/redmine_backlogs.git
+  environment: env
 
 #- install-rm-plugin:
 #    name=redmine_spent_time_column
